@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 575px){
+
+    body{
+      
+        height: 100vh;
+        display: grid;
+        grid-template-areas: 
+        "main";
+        grid-column: 1fr;
+        grid-row: auto;
+        background: #111729;
+    }
+
+    .main{
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo{
+        margin-top: 240px;
+        margin-bottom: 40px;
+    }
+
+  
+
+    .place-holder {
+        display: flex; 
+       position: relative;
+       width: 500px;
+    }
+
+   .place-holder input{
+        width: 100px;
+        padding: 16px;
+        background: #111729;
+        border: 1px solid #4e80ee33;
+        color: #364153;
+        border-radius: 15px;
+        flex: 1;
+        outline: none;
+        font: bold;
+        font-family: sans-serif;
+    }
+
+    .place-holder button{
+        position: absolute; 
+        padding: 12px 40px;
+        border: none;
+        right: 5px;
+        margin-top: 4px;
+       
+       
+        background-color:#3662E3 ;
+        color: white;
+        cursor: pointer;
+        border-radius: 1cqi;
+    }
+    
+}
+
+
+@media (min-width: 576px){
+
+    body{
+      
+        height: 100vh;
+        display: grid;
+        grid-template-areas: 
+        "main main main";
+        grid-column: 1fr 1fr 1fr;
+        grid-row: auto;
+        background: #111729;
+    }
+
+    .main{
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo{
+        margin-top: 240px;
+        margin-bottom: 40px;
+    }
+
+    .place-holder {
+        display: flex; 
+       position: relative;
+       width: 500px;
+    }
+
+
+    .place-holder input{
+        width: 100px;
+        padding: 16px;
+        background: #111729;
+        border: 1px solid #4e80ee33;
+        color: #364153;
+        border-radius: 15px;
+        flex: 1;
+        outline: none;
+        font: bold;
+        font-family: sans-serif;
+    }
+
+    .place-holder button{
+        position: absolute; 
+        padding: 12px 40px;
+        border: none;
+        right: 5px;
+        margin-top: 4px;
+       
+       
+        background-color:#3662E3 ;
+        color: white;
+        cursor: pointer;
+        border-radius: 1cqi;
+    }
+
+}
+
